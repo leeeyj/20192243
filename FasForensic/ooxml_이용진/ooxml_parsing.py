@@ -119,10 +119,10 @@ def parsing_Presentation_xml(ppt_presentation_xml):
         print("========================================")
 
 
-read_ppt1_content_type_xml = "C:/Users/LeeYongJin/Desktop/Fas_Forensic/210129_FaS 과제/ppt1/[Content_Types].xml"
-read_ppt1_core_xml = "C:/Users/LeeYongJin/Desktop/Fas_Forensic/210129_FaS 과제/ppt1/docProps/core.xml"
-read_ppt1_app_xml = "C:/Users/LeeYongJin/Desktop/Fas_Forensic/210129_FaS 과제/ppt1/docProps/app.xml"
-read_ppt1_presentation_xml = "C:/Users/LeeYongJin/Desktop/Fas_Forensic/210129_FaS 과제/ppt2/ppt/presentation.xml"
+read_ppt1_content_type_xml = ""
+read_ppt1_core_xml = ""
+read_ppt1_app_xml = ""
+read_ppt1_presentation_xml = ""
 
 
 parsing_Content_type_xml(read_ppt1_content_type_xml)
