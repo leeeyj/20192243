@@ -93,9 +93,8 @@ def Forensic(rzip):
 
             open(Local_File_Header[30:30 + file_length].decode('euc-kr'), 'wb').write(binascii.hexlify(file_data))
 
-read_zip_file = "C:/Users/LeeYongJin/Desktop/Fas_Forensic/Test.zip"
-# "C:/Users/LeeYongJin/Desktop/Fas_Forensic/Test.zip."
-# write_zip_file = "C:/Users/LeeYongJin/Desktop/Fas_Forensic/Test_write.txt."
+read_zip_file = ""
+# write_zip_file = ""
 
 print("\n헤더의 모든 멀티 바이트 값은 리틀 엔디안 바이트 순서로 저장한다.\n")
 Forensic(read_zip_file)
