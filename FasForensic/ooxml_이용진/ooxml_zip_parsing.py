@@ -57,7 +57,7 @@ def parsing(rooxml):
         f.write(file_name.decode('euc-kr')+'\n')
         CD = CD[46 + file_length + extra_field_length + file_comment_length:]
 
-read_ooxml1 = "C:/Users/LeeYongJin/Desktop/Fas_Forensic/210129_FaS 과제/ppt1.pptx"
-read_ooxml2 = "C:/Users/LeeYongJin/Desktop/Fas_Forensic/210129_FaS 과제/ppt2.pptx"
+read_ooxml1 = ""
+read_ooxml2 = ""
 
 parsing(read_ooxml2)
